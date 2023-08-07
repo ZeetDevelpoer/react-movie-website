@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: poppins;
+    background-color: #202127;
+}
+.rsis-image {
+    padding: 30px !important;
+    object-fit: cover !important;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.rsis-image div {
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
